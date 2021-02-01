@@ -1,3 +1,4 @@
+@DragAndDrop
 Feature: Drag and drop is working
 
   Scenario: Put bank details into drag and drop form
@@ -7,4 +8,4 @@ Feature: Drag and drop is working
     And user drop debit amount "5000"
     And user drop credit account "SALES"
     And user drop credit amount "5000"
-    Then success message is shown
+    Then success messagee is shown

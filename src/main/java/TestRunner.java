@@ -5,10 +5,12 @@ import org.junit.runner.RunWith;
 
     @RunWith(Cucumber.class)
     @CucumberOptions(
-            tags = {"@Smoke"},
+            //tags = {"@Smoke"},
+            //tags = {"@DragAndDrop"},
+            //tags = {"@FileUpload"},
             features = "src/test/resources",
             glue = {"steps"},
-            plugin = { "pretty", "html:target/htmlreports"})
+            plugin = { "pretty","html:target/htmlreports"})
 
 public class TestRunner {
 }

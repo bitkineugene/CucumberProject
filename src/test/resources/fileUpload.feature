@@ -1,3 +1,4 @@
+@FileUpload
 Feature: File upload is working
 
   Scenario: User can upload file on uploadFilePage
